@@ -10,9 +10,11 @@ header {
     background: rgba(229, 84, 115, 0.10);
     height: 850px;
 }
-main{
-    border: 0px 240px;
+
+main {
+    margin: 0px 240px;
 }
+
 .banner-pic {
     width: 635px;
     height: 800px;
@@ -43,6 +45,11 @@ main{
     color: #FFFFFF;
 }
 
+.sec-u {
+    justify-content: center;
+    text-align: center;
+}
+
 .sec-h {
     color: #272727;
     text-align: center;
@@ -53,7 +60,7 @@ main{
 .sec-d {
     color: rgba(39, 39, 39, 0.60);
     width: 594px;
-    margin-left: 470px;
+    margin-left: 20%;
     justify-content: center;
     text-align: center;
     font-size: 18px;
@@ -65,32 +72,29 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1440px;
-    height: 605px;
 }
 
 .flw-1 {
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
-    height: 538px;
+    width: 348px;
+    height: 403.5px;
     margin-right: 24px;
-    margin-left: 30px;
 }
 
 .flw-2 {
     background: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
-    height: 538px;
+    width: 348px;
+    height: 403.5px;
     margin-right: 24px;
 }
 
 .flw-3 {
     background: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
-    height: 538px;
+    width: 348px;
+    height: 403.5px;
 }
 
 .flw-nam {
@@ -101,11 +105,11 @@ main{
     text-decoration-line: underline;
     align-items: center;
     justify-content: center;
-    margin-left: 125px;
+    margin-left: 115px;
 }
 
 .flwo {
-    width: 310px;
-    height: 428px;
+    width: 232.5px;
+    height: 321px;
     padding: 110px 78px 0px 76px;
 }
